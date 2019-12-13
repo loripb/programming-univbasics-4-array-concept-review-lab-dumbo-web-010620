@@ -7,10 +7,10 @@ def find_max_value(array)
   array.each do |value|
 
     #if the value is grater than the max_value, set max_value to that value
-    if value > max_value  
+    if value > max_value
       max_value = value
     end
-      
+
   end
   max_value
 end
